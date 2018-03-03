@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
         // See http://developer.android.com/reference/android/Manifest.permission.html#USE_FINGERPRINT
         // The line below prevents the false positive inspection from Android Studio
         // noinspection ResourceType
-        if (!fingerprintManager.hasEnrolledFingerprints()) {
+        if (!fingerprintManager. hasEnrolledFingerprints()) {
             purchaseButton.setEnabled(false);
             // This happens when no fingerprints are registered.
             Toast.makeText(this,
